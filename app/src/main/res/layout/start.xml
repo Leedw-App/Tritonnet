@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    android:background="#1f1e1e">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/device_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:text="스마트 분전함"
+            android:textColor="#d4d2d2"
+            android:textSize="15sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/deviceSPD"
+            android:layout_width="55dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="50dp"
+            android:text="SPD"
+            android:textSize="15sp"
+            android:textColor="#ff0000"
+            android:textStyle="bold"
+            android:background="#808080"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/devicePower"
+            android:layout_width="55dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="50dp"
+            android:textSize="15sp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="#FFFFFF"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="3dp"
+        android:layout_gravity="center"
+        android:background="#d4d2d2">
+    </View>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/area_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="area_id"
+            android:textSize="20dp"
+            android:textColor="#d4d2d2"
+            android:textStyle="bold"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+
+</LinearLayout>
